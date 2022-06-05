@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/images/img1.jpg" >
+  <!-- Input Form -->
+  <div  class="input form">
+    <form action="{{url_for('predict')}}"method="post" id="input head">
+      <h1 style="color: rgb(6, 7, 7); background-color: rgb(228, 234, 231)">     Iris Classifier     </h1>
+      <br>
+      <h2 style="color: rgb(13, 14, 15); background-color: rgb(153, 225, 132);">Enter The Iris Data</h2>
+      <br>
+      <input type="text" name="SL" placeholder="Enter SL">
+      <br>
+      <br>
+      <input type="text" name="SW" placeholder="Enter SW">
+      <br>
+      <br>
+      <input type="text" name="PL" placeholder="Enter PL">
+      <br>
+      <br>
+      <input type="text" name="PW" placeholder="Enter PW">
+      <br>
+      <br>
+      <br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+   
+  </div>
+   
+  </div>
+     
+  </body>
+</html>
